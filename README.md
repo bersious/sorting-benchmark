@@ -1,5 +1,3 @@
-# sorting-benchmark
-"Benchmarking QuickSort, HeapSort, MergeSort, and NumPy Sort on 1,000,000 elements — TTNT2025"
 # 📊 Sorting Benchmark
 
 A performance comparison of classic sorting algorithms on datasets of 1,000,000 elements.
@@ -16,11 +14,15 @@ This project benchmarks 4 sorting algorithms across multiple data types and orde
 Test datasets include ascending, descending, and random orders for both `int` and `float` types.
 
 ## 📁 Project Structure
+
+```
 sorting-benchmark/
-├── sorting_algorithms.py # Implementation of all 4 algorithms
-├── benchmark_results.csv # Raw benchmark timing data
+├── sorting_algorithms.py   # Implementation of all 4 algorithms
+├── run_benchmark.py        # Script to run benchmarks and generate data
+├── benchmark_results.csv   # Raw benchmark timing data
 ├── Bao-Cao-Thu-Nghiem.docx # Experiment report (Vietnamese)
 └── README.md
+```
 
 ## ⚙️ Requirements
 
@@ -44,7 +46,8 @@ pip install numpy
 
 > NumPy Sort is ~145x faster than pure-Python QuickSort,  
 > thanks to low-level C optimizations under the hood.
-> ## 📂 Dataset
+
+## 📂 Dataset
 
 The original input data files (`.npy` arrays, ~1M elements each) are **not included**
 in this repository due to GitHub's file size limitations.
@@ -56,4 +59,4 @@ in this repository due to GitHub's file size limitations.
 
 ## 👤 Author
 
-**Nguyễn Thành Thiện Nhân (bersious) ** — Class TTNT2025 
+**Nguyễn Thành Thiện Nhân (bersious)** — Class TTNT2025
