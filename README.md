@@ -16,3 +16,35 @@ This project benchmarks 4 sorting algorithms across multiple data types and orde
 Test datasets include ascending, descending, and random orders for both `int` and `float` types.
 
 ## 📁 Project Structure
+sorting-benchmark/
+├── sorting_algorithms.py # Implementation of all 4 algorithms
+├── benchmark_results.csv # Raw benchmark timing data
+├── Bao-Cao-Thu-Nghiem.docx # Experiment report (Vietnamese)
+└── README.md
+
+## ⚙️ Requirements
+
+- Python 3.x
+- NumPy
+
+Install dependencies:
+
+```bash
+pip install numpy
+```
+
+## 🏆 Results
+
+| Algorithm  | Avg Time (ms) |
+|------------|--------------|
+| NumPy Sort | 17.0         |
+| QuickSort  | 2467.8       |
+| MergeSort  | 2719.8       |
+| HeapSort   | 5595.4       |
+
+> NumPy Sort is ~145x faster than pure-Python QuickSort,  
+> thanks to low-level C optimizations under the hood.
+
+## 👤 Author
+
+**Nguyễn Thành Thiện Nhân** — Class TTNT2025
