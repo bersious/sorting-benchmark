@@ -1,0 +1,41 @@
+dataset,type,order,algorithm,time_sec,correct
+float_asc,float,Tăng dần,QuickSort,1.3531,True
+float_asc,float,Tăng dần,HeapSort,3.915,True
+float_asc,float,Tăng dần,MergeSort,1.5421,True
+float_asc,float,Tăng dần,NumPy Sort,0.0436,True
+float_desc,float,Giảm dần,QuickSort,2.5098,True
+float_desc,float,Giảm dần,HeapSort,3.5767,True
+float_desc,float,Giảm dần,MergeSort,1.5608,True
+float_desc,float,Giảm dần,NumPy Sort,0.0099,True
+float_rand1,float,Ngẫu nhiên 1,QuickSort,2.2797,True
+float_rand1,float,Ngẫu nhiên 1,HeapSort,6.1899,True
+float_rand1,float,Ngẫu nhiên 1,MergeSort,3.1853,True
+float_rand1,float,Ngẫu nhiên 1,NumPy Sort,0.0087,True
+float_rand2,float,Ngẫu nhiên 2,QuickSort,2.5321,True
+float_rand2,float,Ngẫu nhiên 2,HeapSort,5.8338,True
+float_rand2,float,Ngẫu nhiên 2,MergeSort,3.0252,True
+float_rand2,float,Ngẫu nhiên 2,NumPy Sort,0.0093,True
+float_rand3,float,Ngẫu nhiên 3,QuickSort,2.4746,True
+float_rand3,float,Ngẫu nhiên 3,HeapSort,6.1878,True
+float_rand3,float,Ngẫu nhiên 3,MergeSort,3.2174,True
+float_rand3,float,Ngẫu nhiên 3,NumPy Sort,0.0091,True
+int_asc,int,Tăng dần,QuickSort,1.4786,True
+int_asc,int,Tăng dần,HeapSort,3.9528,True
+int_asc,int,Tăng dần,MergeSort,1.8346,True
+int_asc,int,Tăng dần,NumPy Sort,0.0445,True
+int_desc,int,Giảm dần,QuickSort,2.8487,True
+int_desc,int,Giảm dần,HeapSort,3.7512,True
+int_desc,int,Giảm dần,MergeSort,1.794,True
+int_desc,int,Giảm dần,NumPy Sort,0.0104,True
+int_rand1,int,Ngẫu nhiên 1,QuickSort,2.9291,True
+int_rand1,int,Ngẫu nhiên 1,HeapSort,8.9594,True
+int_rand1,int,Ngẫu nhiên 1,MergeSort,4.4063,True
+int_rand1,int,Ngẫu nhiên 1,NumPy Sort,0.0139,True
+int_rand2,int,Ngẫu nhiên 2,QuickSort,3.5025,True
+int_rand2,int,Ngẫu nhiên 2,HeapSort,6.9986,True
+int_rand2,int,Ngẫu nhiên 2,MergeSort,3.4593,True
+int_rand2,int,Ngẫu nhiên 2,NumPy Sort,0.0094,True
+int_rand3,int,Ngẫu nhiên 3,QuickSort,2.7695,True
+int_rand3,int,Ngẫu nhiên 3,HeapSort,6.5892,True
+int_rand3,int,Ngẫu nhiên 3,MergeSort,3.1728,True
+int_rand3,int,Ngẫu nhiên 3,NumPy Sort,0.0113,True
