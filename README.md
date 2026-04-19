@@ -47,4 +47,4 @@ pip install numpy
 
 ## 👤 Author
 
-**Nguyễn Thành Thiện Nhân** — Class TTNT2025
+**Nguyễn Thành Thiện Nhân (bersious) ** — Class TTNT2025 
