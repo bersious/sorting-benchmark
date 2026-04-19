@@ -44,6 +44,15 @@ pip install numpy
 
 > NumPy Sort is ~145x faster than pure-Python QuickSort,  
 > thanks to low-level C optimizations under the hood.
+> ## 📂 Dataset
+
+The original input data files (`.npy` arrays, ~1M elements each) are **not included**
+in this repository due to GitHub's file size limitations.
+
+**To reproduce the benchmark locally:**
+1. Run the benchmark script — it will generate the test datasets automatically.
+2. Results are pre-recorded in [`benchmark_results.csv`](./benchmark_results.csv)
+   for reference without re-running.
 
 ## 👤 Author
 
